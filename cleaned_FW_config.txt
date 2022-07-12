@@ -1,0 +1,13 @@
+config firewall policy
+    edit 80
+        set status disable
+        set uuid random
+        set srcintf "T123_dummy"
+        set dstintf "T456_dummy"
+        set action accept
+        set srcaddr "IP-120.20.255.120" "IP-130.20.255.120"
+        set dstaddr "IP-150.20.255.120"
+        set schedule "always"
+        set service "SMB"
+    next
+end
