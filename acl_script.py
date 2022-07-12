@@ -201,7 +201,7 @@ def acl_creator(conf):
 
 if __name__ == "__main__":
     # This contains the "service type" to port number mappings
-    dict_file = open('scratch.json')
+    dict_file = open('service_mapping.json')
     data = json.load(dict_file)
 
     # Change according to the filename containing fortigate policy rules, and place it in the same folder as this code
