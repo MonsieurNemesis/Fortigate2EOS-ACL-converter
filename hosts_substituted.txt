@@ -1,0 +1,6 @@
+T123_dummy - T456_dummy
+
+permit tcp host 120.20.255.120 host 150.20.255.120 eq 445
+permit tcp host 120.20.255.120 host 150.20.255.120 eq 139
+permit tcp host 130.20.255.120 host 150.20.255.120 eq 445
+permit tcp host 130.20.255.120 host 150.20.255.120 eq 139
